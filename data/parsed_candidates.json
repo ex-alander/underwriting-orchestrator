@@ -1,0 +1,140 @@
+{
+  "source": "автоматический парсинг открытых страниц банков, октябрь 2026",
+  "candidates": [
+    {
+      "source_url": "https://www.sberbank.ru/ru/person/credits/money",
+      "raw_text": "Возраст заёмщика на момент предоставления кредита — от 21 года.",
+      "type": "clean"
+    },
+    {
+      "source_url": "https://www.sberbank.ru/ru/person/credits/money",
+      "raw_text": "Возраст заёмщика на момент возврата кредита не должен превышать 70 лет.",
+      "type": "clean"
+    },
+    {
+      "source_url": "https://www.sberbank.ru/ru/person/credits/money",
+      "raw_text": "Стаж на последнем месте работы — не менее 6 месяцев.",
+      "type": "clean"
+    },
+    {
+      "source_url": "https://www.sberbank.ru/ru/person/credits/money",
+      "raw_text": "Ежемесячный доход должен быть не менее 20 000 рублей.",
+      "type": "clean"
+    },
+    {
+      "source_url": "https://www.vtb.ru/personal/kredit/kalkulyator/",
+      "raw_text": "Гражданство Российской Федерации обязательно.",
+      "type": "clean"
+    },
+    {
+      "source_url": "https://www.vtb.ru/personal/kredit/kalkulyator/",
+      "raw_text": "Возраст заёмщика — от 23 до 75 лет.",
+      "type": "multi"
+    },
+    {
+      "source_url": "https://www.vtb.ru/personal/kredit/kalkulyator/",
+      "raw_text": "Постоянная регистрация на территории РФ.",
+      "type": "clean"
+    },
+    {
+      "source_url": "https://www.vtb.ru/personal/kredit/kalkulyator/",
+      "raw_text": "Общий трудовой стаж — не менее 1 года.",
+      "type": "clean"
+    },
+    {
+      "source_url": "https://alfabank.ru/get-money/credit/",
+      "raw_text": "Кредитная история без текущих просрочек на момент подачи заявки.",
+      "type": "clean"
+    },
+    {
+      "source_url": "https://alfabank.ru/get-money/credit/",
+      "raw_text": "Количество действующих кредитов — не более 3.",
+      "type": "clean"
+    },
+    {
+      "source_url": "https://alfabank.ru/get-money/credit/",
+      "raw_text": "Максимальное отношение платежа к доходу (PTI) — 60%.",
+      "type": "clean"
+    },
+    {
+      "source_url": "https://www.gazprombank.ru/personal/credits/",
+      "raw_text": "Возраст заёмщика — от 20 до 70 лет на дату возврата кредита.",
+      "type": "multi"
+    },
+    {
+      "source_url": "https://www.gazprombank.ru/personal/credits/",
+      "raw_text": "Стаж на последнем месте работы — не менее 3 месяцев.",
+      "type": "clean"
+    },
+    {
+      "source_url": "https://www.gazprombank.ru/personal/credits/",
+      "raw_text": "Для самозанятых требуется подтверждение дохода за последние 12 месяцев.",
+      "type": "clean"
+    },
+    {
+      "source_url": "https://sovcombank.ru/credits/cash",
+      "raw_text": "Возраст от 18 до 85 лет.",
+      "type": "multi"
+    },
+    {
+      "source_url": "https://sovcombank.ru/credits/cash",
+      "raw_text": "Официальное трудоустройство — не менее 4 месяцев на последнем месте.",
+      "type": "clean"
+    },
+    {
+      "source_url": "https://www.sberbank.ru/ru/person/credits/money",
+      "raw_text": "Возраст заёмщика на момент предоставления кредита — от 21 года.",
+      "type": "duplicate"
+    },
+    {
+      "source_url": "https://www.vtb.ru/personal/kredit/kalkulyator/",
+      "raw_text": "Стаж на последнем месте работы должен быть не меньше шести месяцев.",
+      "type": "duplicate"
+    },
+    {
+      "source_url": "https://alfabank.ru/get-money/credit/",
+      "raw_text": "Возраст клиента от 21 года.",
+      "type": "duplicate"
+    },
+    {
+      "source_url": "https://www.sberbank.ru/ru/person/credits/money",
+      "raw_text": "Индивидуальный подход к каждому клиенту и гибкие условия кредитования.",
+      "type": "borderline"
+    },
+    {
+      "source_url": "https://www.vtb.ru/personal/kredit/kalkulyator/",
+      "raw_text": "Кредитный лимит может быть увеличен по решению банка.",
+      "type": "borderline"
+    },
+    {
+      "source_url": "https://alfabank.ru/get-money/credit/",
+      "raw_text": "Для клиентов с положительной кредитной историей ставка может быть снижена.",
+      "type": "borderline"
+    },
+    {
+      "source_url": "https://www.gazprombank.ru/personal/credits/",
+      "raw_text": "Возможность досрочного погашения без штрафов по решению заёмщика.",
+      "type": "borderline"
+    },
+    {
+      "source_url": "https://sovcombank.ru/credits/cash",
+      "raw_text": "Быстрое рассмотрение заявки — решение за 5 минут.",
+      "type": "noise"
+    },
+    {
+      "source_url": "https://www.sberbank.ru/ru/person/credits/money",
+      "raw_text": "Оформите кредит онлайн и получите деньги на карту за один день.",
+      "type": "noise"
+    },
+    {
+      "source_url": "https://alfabank.ru/get-money/credit/",
+      "raw_text": "Более 10 миллионов клиентов выбрали наш банк.",
+      "type": "noise"
+    },
+    {
+      "source_url": "https://www.vtb.ru/personal/kredit/kalkulyator/",
+      "raw_text": "Удобный онлайн-калькулятор для расчёта ежемесячного платежа.",
+      "type": "noise"
+    }
+  ]
+}
