@@ -1,0 +1,1184 @@
+{
+  "applications": [
+    {
+      "application_id": "fc9826dd-6c99-45fe-828c-4a860463e1a5",
+      "expected_rules": [
+        {
+          "rule_id": "INCOME_MIN_15000",
+          "passed": true,
+          "reason": null
+        },
+        {
+          "rule_id": "INCOME_SOFT_25000",
+          "passed": true,
+          "reason": null
+        },
+        {
+          "rule_id": "DTI_MAX_50",
+          "passed": false,
+          "reason": null
+        },
+        {
+          "rule_id": "DTI_SOFT_40",
+          "passed": false,
+          "reason": null
+        },
+        {
+          "rule_id": "PTI_MAX_40",
+          "passed": true,
+          "reason": null
+        },
+        {
+          "rule_id": "PTI_SOFT_30",
+          "passed": true,
+          "reason": null
+        },
+        {
+          "rule_id": "LOAN_AMOUNT_MAX_5M",
+          "passed": true,
+          "reason": null
+        },
+        {
+          "rule_id": "LOAN_AMOUNT_SOFT_3M",
+          "passed": true,
+          "reason": null
+        },
+        {
+          "rule_id": "AGE_MIN_21",
+          "passed": true,
+          "reason": null
+        },
+        {
+          "rule_id": "AGE_MAX_65",
+          "passed": true,
+          "reason": null
+        },
+        {
+          "rule_id": "EMPLOYMENT_TYPE_VALID",
+          "passed": false,
+          "reason": null
+        },
+        {
+          "rule_id": "INSURANCE_INFO_LARGE_LOAN",
+          "passed": false,
+          "reason": null
+        },
+        {
+          "rule_id": "CALL_VERIFICATION_LARGE",
+          "passed": false,
+          "reason": null
+        },
+        {
+          "rule_id": "ADDITIONAL_DOCS_500K",
+          "passed": false,
+          "reason": null
+        },
+        {
+          "rule_id": "COBORROWER_FOR_2M",
+          "passed": true,
+          "reason": null
+        },
+        {
+          "rule_id": "LOAN_TERM_MIN_6",
+          "passed": true,
+          "reason": null
+        },
+        {
+          "rule_id": "LOAN_TERM_MAX_84",
+          "passed": true,
+          "reason": null
+        },
+        {
+          "rule_id": "LOAN_TERM_SOFT_60",
+          "passed": true,
+          "reason": null
+        },
+        {
+          "rule_id": "YOUNG_BORROWER_REVIEW",
+          "passed": true,
+          "reason": null
+        },
+        {
+          "rule_id": "NEAR_RETIREMENT_REVIEW",
+          "passed": true,
+          "reason": null
+        },
+        {
+          "rule_id": "SELF_EMPLOYED_REVIEW",
+          "passed": true,
+          "reason": null
+        },
+        {
+          "rule_id": "INCOME_PROOF_LARGE",
+          "passed": false,
+          "reason": null
+        }
+      ],
+      "expected_verdict": "reject",
+      "expected_rate": null,
+      "notes": null
+    },
+    {
+      "application_id": "68a0d823-420b-440a-8b53-e61b1fde7301",
+      "expected_rules": [
+        {
+          "rule_id": "INCOME_MIN_15000",
+          "passed": true,
+          "reason": null
+        },
+        {
+          "rule_id": "INCOME_SOFT_25000",
+          "passed": true,
+          "reason": null
+        },
+        {
+          "rule_id": "DTI_MAX_50",
+          "passed": false,
+          "reason": null
+        },
+        {
+          "rule_id": "DTI_SOFT_40",
+          "passed": false,
+          "reason": null
+        },
+        {
+          "rule_id": "PTI_MAX_40",
+          "passed": false,
+          "reason": null
+        },
+        {
+          "rule_id": "PTI_SOFT_30",
+          "passed": false,
+          "reason": null
+        },
+        {
+          "rule_id": "LOAN_AMOUNT_MAX_5M",
+          "passed": true,
+          "reason": null
+        },
+        {
+          "rule_id": "LOAN_AMOUNT_SOFT_3M",
+          "passed": false,
+          "reason": null
+        },
+        {
+          "rule_id": "AGE_MIN_21",
+          "passed": true,
+          "reason": null
+        },
+        {
+          "rule_id": "AGE_MAX_65",
+          "passed": true,
+          "reason": null
+        },
+        {
+          "rule_id": "EMPLOYMENT_TYPE_VALID",
+          "passed": false,
+          "reason": null
+        },
+        {
+          "rule_id": "INSURANCE_INFO_LARGE_LOAN",
+          "passed": false,
+          "reason": null
+        },
+        {
+          "rule_id": "CALL_VERIFICATION_LARGE",
+          "passed": false,
+          "reason": null
+        },
+        {
+          "rule_id": "ADDITIONAL_DOCS_500K",
+          "passed": false,
+          "reason": null
+        },
+        {
+          "rule_id": "COBORROWER_FOR_2M",
+          "passed": false,
+          "reason": null
+        },
+        {
+          "rule_id": "LOAN_TERM_MIN_6",
+          "passed": true,
+          "reason": null
+        },
+        {
+          "rule_id": "LOAN_TERM_MAX_84",
+          "passed": true,
+          "reason": null
+        },
+        {
+          "rule_id": "LOAN_TERM_SOFT_60",
+          "passed": true,
+          "reason": null
+        },
+        {
+          "rule_id": "YOUNG_BORROWER_REVIEW",
+          "passed": true,
+          "reason": null
+        },
+        {
+          "rule_id": "NEAR_RETIREMENT_REVIEW",
+          "passed": true,
+          "reason": null
+        },
+        {
+          "rule_id": "SELF_EMPLOYED_REVIEW",
+          "passed": true,
+          "reason": null
+        },
+        {
+          "rule_id": "INCOME_PROOF_LARGE",
+          "passed": false,
+          "reason": null
+        }
+      ],
+      "expected_verdict": "reject",
+      "expected_rate": null,
+      "notes": null
+    },
+    {
+      "application_id": "7b02b6de-ab6c-4ba3-9823-6cb80a94aefb",
+      "expected_rules": [
+        {
+          "rule_id": "INCOME_MIN_15000",
+          "passed": true,
+          "reason": null
+        },
+        {
+          "rule_id": "INCOME_SOFT_25000",
+          "passed": true,
+          "reason": null
+        },
+        {
+          "rule_id": "DTI_MAX_50",
+          "passed": true,
+          "reason": null
+        },
+        {
+          "rule_id": "DTI_SOFT_40",
+          "passed": false,
+          "reason": null
+        },
+        {
+          "rule_id": "PTI_MAX_40",
+          "passed": true,
+          "reason": null
+        },
+        {
+          "rule_id": "PTI_SOFT_30",
+          "passed": false,
+          "reason": null
+        },
+        {
+          "rule_id": "LOAN_AMOUNT_MAX_5M",
+          "passed": true,
+          "reason": null
+        },
+        {
+          "rule_id": "LOAN_AMOUNT_SOFT_3M",
+          "passed": true,
+          "reason": null
+        },
+        {
+          "rule_id": "AGE_MIN_21",
+          "passed": true,
+          "reason": null
+        },
+        {
+          "rule_id": "AGE_MAX_65",
+          "passed": true,
+          "reason": null
+        },
+        {
+          "rule_id": "EMPLOYMENT_TYPE_VALID",
+          "passed": true,
+          "reason": null
+        },
+        {
+          "rule_id": "INSURANCE_INFO_LARGE_LOAN",
+          "passed": false,
+          "reason": null
+        },
+        {
+          "rule_id": "CALL_VERIFICATION_LARGE",
+          "passed": false,
+          "reason": null
+        },
+        {
+          "rule_id": "ADDITIONAL_DOCS_500K",
+          "passed": false,
+          "reason": null
+        },
+        {
+          "rule_id": "COBORROWER_FOR_2M",
+          "passed": true,
+          "reason": null
+        },
+        {
+          "rule_id": "LOAN_TERM_MIN_6",
+          "passed": true,
+          "reason": null
+        },
+        {
+          "rule_id": "LOAN_TERM_MAX_84",
+          "passed": true,
+          "reason": null
+        },
+        {
+          "rule_id": "LOAN_TERM_SOFT_60",
+          "passed": true,
+          "reason": null
+        },
+        {
+          "rule_id": "YOUNG_BORROWER_REVIEW",
+          "passed": true,
+          "reason": null
+        },
+        {
+          "rule_id": "NEAR_RETIREMENT_REVIEW",
+          "passed": true,
+          "reason": null
+        },
+        {
+          "rule_id": "SELF_EMPLOYED_REVIEW",
+          "passed": false,
+          "reason": null
+        },
+        {
+          "rule_id": "INCOME_PROOF_LARGE",
+          "passed": true,
+          "reason": null
+        }
+      ],
+      "expected_verdict": "review",
+      "expected_rate": null,
+      "notes": null
+    },
+    {
+      "application_id": "40f77412-43b4-469e-a590-2528a2b4b967",
+      "expected_rules": [
+        {
+          "rule_id": "INCOME_MIN_15000",
+          "passed": true,
+          "reason": null
+        },
+        {
+          "rule_id": "INCOME_SOFT_25000",
+          "passed": true,
+          "reason": null
+        },
+        {
+          "rule_id": "DTI_MAX_50",
+          "passed": false,
+          "reason": null
+        },
+        {
+          "rule_id": "DTI_SOFT_40",
+          "passed": false,
+          "reason": null
+        },
+        {
+          "rule_id": "PTI_MAX_40",
+          "passed": true,
+          "reason": null
+        },
+        {
+          "rule_id": "PTI_SOFT_30",
+          "passed": true,
+          "reason": null
+        },
+        {
+          "rule_id": "LOAN_AMOUNT_MAX_5M",
+          "passed": true,
+          "reason": null
+        },
+        {
+          "rule_id": "LOAN_AMOUNT_SOFT_3M",
+          "passed": true,
+          "reason": null
+        },
+        {
+          "rule_id": "AGE_MIN_21",
+          "passed": true,
+          "reason": null
+        },
+        {
+          "rule_id": "AGE_MAX_65",
+          "passed": true,
+          "reason": null
+        },
+        {
+          "rule_id": "EMPLOYMENT_TYPE_VALID",
+          "passed": false,
+          "reason": null
+        },
+        {
+          "rule_id": "INSURANCE_INFO_LARGE_LOAN",
+          "passed": false,
+          "reason": null
+        },
+        {
+          "rule_id": "CALL_VERIFICATION_LARGE",
+          "passed": false,
+          "reason": null
+        },
+        {
+          "rule_id": "ADDITIONAL_DOCS_500K",
+          "passed": false,
+          "reason": null
+        },
+        {
+          "rule_id": "COBORROWER_FOR_2M",
+          "passed": true,
+          "reason": null
+        },
+        {
+          "rule_id": "LOAN_TERM_MIN_6",
+          "passed": true,
+          "reason": null
+        },
+        {
+          "rule_id": "LOAN_TERM_MAX_84",
+          "passed": true,
+          "reason": null
+        },
+        {
+          "rule_id": "LOAN_TERM_SOFT_60",
+          "passed": true,
+          "reason": null
+        },
+        {
+          "rule_id": "YOUNG_BORROWER_REVIEW",
+          "passed": true,
+          "reason": null
+        },
+        {
+          "rule_id": "NEAR_RETIREMENT_REVIEW",
+          "passed": true,
+          "reason": null
+        },
+        {
+          "rule_id": "SELF_EMPLOYED_REVIEW",
+          "passed": true,
+          "reason": null
+        },
+        {
+          "rule_id": "INCOME_PROOF_LARGE",
+          "passed": false,
+          "reason": null
+        }
+      ],
+      "expected_verdict": "reject",
+      "expected_rate": null,
+      "notes": null
+    },
+    {
+      "application_id": "f0d9775b-95c5-4098-8cfc-9b0c7fc16dba",
+      "expected_rules": [
+        {
+          "rule_id": "INCOME_MIN_15000",
+          "passed": true,
+          "reason": null
+        },
+        {
+          "rule_id": "INCOME_SOFT_25000",
+          "passed": true,
+          "reason": null
+        },
+        {
+          "rule_id": "DTI_MAX_50",
+          "passed": false,
+          "reason": null
+        },
+        {
+          "rule_id": "DTI_SOFT_40",
+          "passed": false,
+          "reason": null
+        },
+        {
+          "rule_id": "PTI_MAX_40",
+          "passed": false,
+          "reason": null
+        },
+        {
+          "rule_id": "PTI_SOFT_30",
+          "passed": false,
+          "reason": null
+        },
+        {
+          "rule_id": "LOAN_AMOUNT_MAX_5M",
+          "passed": true,
+          "reason": null
+        },
+        {
+          "rule_id": "LOAN_AMOUNT_SOFT_3M",
+          "passed": true,
+          "reason": null
+        },
+        {
+          "rule_id": "AGE_MIN_21",
+          "passed": true,
+          "reason": null
+        },
+        {
+          "rule_id": "AGE_MAX_65",
+          "passed": true,
+          "reason": null
+        },
+        {
+          "rule_id": "EMPLOYMENT_TYPE_VALID",
+          "passed": false,
+          "reason": null
+        },
+        {
+          "rule_id": "INSURANCE_INFO_LARGE_LOAN",
+          "passed": true,
+          "reason": null
+        },
+        {
+          "rule_id": "CALL_VERIFICATION_LARGE",
+          "passed": true,
+          "reason": null
+        },
+        {
+          "rule_id": "ADDITIONAL_DOCS_500K",
+          "passed": true,
+          "reason": null
+        },
+        {
+          "rule_id": "COBORROWER_FOR_2M",
+          "passed": true,
+          "reason": null
+        },
+        {
+          "rule_id": "LOAN_TERM_MIN_6",
+          "passed": true,
+          "reason": null
+        },
+        {
+          "rule_id": "LOAN_TERM_MAX_84",
+          "passed": true,
+          "reason": null
+        },
+        {
+          "rule_id": "LOAN_TERM_SOFT_60",
+          "passed": true,
+          "reason": null
+        },
+        {
+          "rule_id": "YOUNG_BORROWER_REVIEW",
+          "passed": true,
+          "reason": null
+        },
+        {
+          "rule_id": "NEAR_RETIREMENT_REVIEW",
+          "passed": true,
+          "reason": null
+        },
+        {
+          "rule_id": "SELF_EMPLOYED_REVIEW",
+          "passed": true,
+          "reason": null
+        },
+        {
+          "rule_id": "INCOME_PROOF_LARGE",
+          "passed": true,
+          "reason": null
+        }
+      ],
+      "expected_verdict": "reject",
+      "expected_rate": null,
+      "notes": null
+    },
+    {
+      "application_id": "d998607b-8af0-45d6-aac3-593a04229a16",
+      "expected_rules": [
+        {
+          "rule_id": "INCOME_MIN_15000",
+          "passed": true,
+          "reason": null
+        },
+        {
+          "rule_id": "INCOME_SOFT_25000",
+          "passed": true,
+          "reason": null
+        },
+        {
+          "rule_id": "DTI_MAX_50",
+          "passed": false,
+          "reason": null
+        },
+        {
+          "rule_id": "DTI_SOFT_40",
+          "passed": false,
+          "reason": null
+        },
+        {
+          "rule_id": "PTI_MAX_40",
+          "passed": true,
+          "reason": null
+        },
+        {
+          "rule_id": "PTI_SOFT_30",
+          "passed": true,
+          "reason": null
+        },
+        {
+          "rule_id": "LOAN_AMOUNT_MAX_5M",
+          "passed": true,
+          "reason": null
+        },
+        {
+          "rule_id": "LOAN_AMOUNT_SOFT_3M",
+          "passed": true,
+          "reason": null
+        },
+        {
+          "rule_id": "AGE_MIN_21",
+          "passed": true,
+          "reason": null
+        },
+        {
+          "rule_id": "AGE_MAX_65",
+          "passed": true,
+          "reason": null
+        },
+        {
+          "rule_id": "EMPLOYMENT_TYPE_VALID",
+          "passed": true,
+          "reason": null
+        },
+        {
+          "rule_id": "INSURANCE_INFO_LARGE_LOAN",
+          "passed": false,
+          "reason": null
+        },
+        {
+          "rule_id": "CALL_VERIFICATION_LARGE",
+          "passed": true,
+          "reason": null
+        },
+        {
+          "rule_id": "ADDITIONAL_DOCS_500K",
+          "passed": false,
+          "reason": null
+        },
+        {
+          "rule_id": "COBORROWER_FOR_2M",
+          "passed": true,
+          "reason": null
+        },
+        {
+          "rule_id": "LOAN_TERM_MIN_6",
+          "passed": true,
+          "reason": null
+        },
+        {
+          "rule_id": "LOAN_TERM_MAX_84",
+          "passed": true,
+          "reason": null
+        },
+        {
+          "rule_id": "LOAN_TERM_SOFT_60",
+          "passed": true,
+          "reason": null
+        },
+        {
+          "rule_id": "YOUNG_BORROWER_REVIEW",
+          "passed": true,
+          "reason": null
+        },
+        {
+          "rule_id": "NEAR_RETIREMENT_REVIEW",
+          "passed": true,
+          "reason": null
+        },
+        {
+          "rule_id": "SELF_EMPLOYED_REVIEW",
+          "passed": false,
+          "reason": null
+        },
+        {
+          "rule_id": "INCOME_PROOF_LARGE",
+          "passed": false,
+          "reason": null
+        }
+      ],
+      "expected_verdict": "reject",
+      "expected_rate": null,
+      "notes": null
+    },
+    {
+      "application_id": "c91846e7-a8c8-4ef4-8e74-dc105a7a3812",
+      "expected_rules": [
+        {
+          "rule_id": "INCOME_MIN_15000",
+          "passed": true,
+          "reason": null
+        },
+        {
+          "rule_id": "INCOME_SOFT_25000",
+          "passed": true,
+          "reason": null
+        },
+        {
+          "rule_id": "DTI_MAX_50",
+          "passed": true,
+          "reason": null
+        },
+        {
+          "rule_id": "DTI_SOFT_40",
+          "passed": true,
+          "reason": null
+        },
+        {
+          "rule_id": "PTI_MAX_40",
+          "passed": true,
+          "reason": null
+        },
+        {
+          "rule_id": "PTI_SOFT_30",
+          "passed": true,
+          "reason": null
+        },
+        {
+          "rule_id": "LOAN_AMOUNT_MAX_5M",
+          "passed": true,
+          "reason": null
+        },
+        {
+          "rule_id": "LOAN_AMOUNT_SOFT_3M",
+          "passed": true,
+          "reason": null
+        },
+        {
+          "rule_id": "AGE_MIN_21",
+          "passed": true,
+          "reason": null
+        },
+        {
+          "rule_id": "AGE_MAX_65",
+          "passed": true,
+          "reason": null
+        },
+        {
+          "rule_id": "EMPLOYMENT_TYPE_VALID",
+          "passed": false,
+          "reason": null
+        },
+        {
+          "rule_id": "INSURANCE_INFO_LARGE_LOAN",
+          "passed": false,
+          "reason": null
+        },
+        {
+          "rule_id": "CALL_VERIFICATION_LARGE",
+          "passed": true,
+          "reason": null
+        },
+        {
+          "rule_id": "ADDITIONAL_DOCS_500K",
+          "passed": false,
+          "reason": null
+        },
+        {
+          "rule_id": "COBORROWER_FOR_2M",
+          "passed": true,
+          "reason": null
+        },
+        {
+          "rule_id": "LOAN_TERM_MIN_6",
+          "passed": true,
+          "reason": null
+        },
+        {
+          "rule_id": "LOAN_TERM_MAX_84",
+          "passed": true,
+          "reason": null
+        },
+        {
+          "rule_id": "LOAN_TERM_SOFT_60",
+          "passed": true,
+          "reason": null
+        },
+        {
+          "rule_id": "YOUNG_BORROWER_REVIEW",
+          "passed": true,
+          "reason": null
+        },
+        {
+          "rule_id": "NEAR_RETIREMENT_REVIEW",
+          "passed": true,
+          "reason": null
+        },
+        {
+          "rule_id": "SELF_EMPLOYED_REVIEW",
+          "passed": true,
+          "reason": null
+        },
+        {
+          "rule_id": "INCOME_PROOF_LARGE",
+          "passed": true,
+          "reason": null
+        }
+      ],
+      "expected_verdict": "reject",
+      "expected_rate": null,
+      "notes": null
+    },
+    {
+      "application_id": "073e960f-5e74-4a0a-8878-fbb8ea942a8b",
+      "expected_rules": [
+        {
+          "rule_id": "INCOME_MIN_15000",
+          "passed": true,
+          "reason": null
+        },
+        {
+          "rule_id": "INCOME_SOFT_25000",
+          "passed": true,
+          "reason": null
+        },
+        {
+          "rule_id": "DTI_MAX_50",
+          "passed": false,
+          "reason": null
+        },
+        {
+          "rule_id": "DTI_SOFT_40",
+          "passed": false,
+          "reason": null
+        },
+        {
+          "rule_id": "PTI_MAX_40",
+          "passed": false,
+          "reason": null
+        },
+        {
+          "rule_id": "PTI_SOFT_30",
+          "passed": false,
+          "reason": null
+        },
+        {
+          "rule_id": "LOAN_AMOUNT_MAX_5M",
+          "passed": true,
+          "reason": null
+        },
+        {
+          "rule_id": "LOAN_AMOUNT_SOFT_3M",
+          "passed": true,
+          "reason": null
+        },
+        {
+          "rule_id": "AGE_MIN_21",
+          "passed": true,
+          "reason": null
+        },
+        {
+          "rule_id": "AGE_MAX_65",
+          "passed": true,
+          "reason": null
+        },
+        {
+          "rule_id": "EMPLOYMENT_TYPE_VALID",
+          "passed": false,
+          "reason": null
+        },
+        {
+          "rule_id": "INSURANCE_INFO_LARGE_LOAN",
+          "passed": false,
+          "reason": null
+        },
+        {
+          "rule_id": "CALL_VERIFICATION_LARGE",
+          "passed": false,
+          "reason": null
+        },
+        {
+          "rule_id": "ADDITIONAL_DOCS_500K",
+          "passed": false,
+          "reason": null
+        },
+        {
+          "rule_id": "COBORROWER_FOR_2M",
+          "passed": false,
+          "reason": null
+        },
+        {
+          "rule_id": "LOAN_TERM_MIN_6",
+          "passed": true,
+          "reason": null
+        },
+        {
+          "rule_id": "LOAN_TERM_MAX_84",
+          "passed": true,
+          "reason": null
+        },
+        {
+          "rule_id": "LOAN_TERM_SOFT_60",
+          "passed": true,
+          "reason": null
+        },
+        {
+          "rule_id": "YOUNG_BORROWER_REVIEW",
+          "passed": true,
+          "reason": null
+        },
+        {
+          "rule_id": "NEAR_RETIREMENT_REVIEW",
+          "passed": true,
+          "reason": null
+        },
+        {
+          "rule_id": "SELF_EMPLOYED_REVIEW",
+          "passed": true,
+          "reason": null
+        },
+        {
+          "rule_id": "INCOME_PROOF_LARGE",
+          "passed": false,
+          "reason": null
+        }
+      ],
+      "expected_verdict": "reject",
+      "expected_rate": null,
+      "notes": null
+    },
+    {
+      "application_id": "3cab1869-5bec-4aa9-b226-2deb157fe1b5",
+      "expected_rules": [
+        {
+          "rule_id": "INCOME_MIN_15000",
+          "passed": true,
+          "reason": null
+        },
+        {
+          "rule_id": "INCOME_SOFT_25000",
+          "passed": true,
+          "reason": null
+        },
+        {
+          "rule_id": "DTI_MAX_50",
+          "passed": true,
+          "reason": null
+        },
+        {
+          "rule_id": "DTI_SOFT_40",
+          "passed": true,
+          "reason": null
+        },
+        {
+          "rule_id": "PTI_MAX_40",
+          "passed": true,
+          "reason": null
+        },
+        {
+          "rule_id": "PTI_SOFT_30",
+          "passed": true,
+          "reason": null
+        },
+        {
+          "rule_id": "LOAN_AMOUNT_MAX_5M",
+          "passed": true,
+          "reason": null
+        },
+        {
+          "rule_id": "LOAN_AMOUNT_SOFT_3M",
+          "passed": true,
+          "reason": null
+        },
+        {
+          "rule_id": "AGE_MIN_21",
+          "passed": true,
+          "reason": null
+        },
+        {
+          "rule_id": "AGE_MAX_65",
+          "passed": true,
+          "reason": null
+        },
+        {
+          "rule_id": "EMPLOYMENT_TYPE_VALID",
+          "passed": false,
+          "reason": null
+        },
+        {
+          "rule_id": "INSURANCE_INFO_LARGE_LOAN",
+          "passed": false,
+          "reason": null
+        },
+        {
+          "rule_id": "CALL_VERIFICATION_LARGE",
+          "passed": false,
+          "reason": null
+        },
+        {
+          "rule_id": "ADDITIONAL_DOCS_500K",
+          "passed": false,
+          "reason": null
+        },
+        {
+          "rule_id": "COBORROWER_FOR_2M",
+          "passed": true,
+          "reason": null
+        },
+        {
+          "rule_id": "LOAN_TERM_MIN_6",
+          "passed": true,
+          "reason": null
+        },
+        {
+          "rule_id": "LOAN_TERM_MAX_84",
+          "passed": true,
+          "reason": null
+        },
+        {
+          "rule_id": "LOAN_TERM_SOFT_60",
+          "passed": true,
+          "reason": null
+        },
+        {
+          "rule_id": "YOUNG_BORROWER_REVIEW",
+          "passed": true,
+          "reason": null
+        },
+        {
+          "rule_id": "NEAR_RETIREMENT_REVIEW",
+          "passed": true,
+          "reason": null
+        },
+        {
+          "rule_id": "SELF_EMPLOYED_REVIEW",
+          "passed": true,
+          "reason": null
+        },
+        {
+          "rule_id": "INCOME_PROOF_LARGE",
+          "passed": false,
+          "reason": null
+        }
+      ],
+      "expected_verdict": "reject",
+      "expected_rate": null,
+      "notes": null
+    },
+    {
+      "application_id": "d64e353d-5e25-4612-b4bf-38e7af8a4b37",
+      "expected_rules": [
+        {
+          "rule_id": "INCOME_MIN_15000",
+          "passed": true,
+          "reason": null
+        },
+        {
+          "rule_id": "INCOME_SOFT_25000",
+          "passed": true,
+          "reason": null
+        },
+        {
+          "rule_id": "DTI_MAX_50",
+          "passed": false,
+          "reason": null
+        },
+        {
+          "rule_id": "DTI_SOFT_40",
+          "passed": false,
+          "reason": null
+        },
+        {
+          "rule_id": "PTI_MAX_40",
+          "passed": false,
+          "reason": null
+        },
+        {
+          "rule_id": "PTI_SOFT_30",
+          "passed": false,
+          "reason": null
+        },
+        {
+          "rule_id": "LOAN_AMOUNT_MAX_5M",
+          "passed": true,
+          "reason": null
+        },
+        {
+          "rule_id": "LOAN_AMOUNT_SOFT_3M",
+          "passed": true,
+          "reason": null
+        },
+        {
+          "rule_id": "AGE_MIN_21",
+          "passed": true,
+          "reason": null
+        },
+        {
+          "rule_id": "AGE_MAX_65",
+          "passed": true,
+          "reason": null
+        },
+        {
+          "rule_id": "EMPLOYMENT_TYPE_VALID",
+          "passed": false,
+          "reason": null
+        },
+        {
+          "rule_id": "INSURANCE_INFO_LARGE_LOAN",
+          "passed": false,
+          "reason": null
+        },
+        {
+          "rule_id": "CALL_VERIFICATION_LARGE",
+          "passed": false,
+          "reason": null
+        },
+        {
+          "rule_id": "ADDITIONAL_DOCS_500K",
+          "passed": false,
+          "reason": null
+        },
+        {
+          "rule_id": "COBORROWER_FOR_2M",
+          "passed": true,
+          "reason": null
+        },
+        {
+          "rule_id": "LOAN_TERM_MIN_6",
+          "passed": true,
+          "reason": null
+        },
+        {
+          "rule_id": "LOAN_TERM_MAX_84",
+          "passed": true,
+          "reason": null
+        },
+        {
+          "rule_id": "LOAN_TERM_SOFT_60",
+          "passed": true,
+          "reason": null
+        },
+        {
+          "rule_id": "YOUNG_BORROWER_REVIEW",
+          "passed": false,
+          "reason": null
+        },
+        {
+          "rule_id": "NEAR_RETIREMENT_REVIEW",
+          "passed": true,
+          "reason": null
+        },
+        {
+          "rule_id": "SELF_EMPLOYED_REVIEW",
+          "passed": true,
+          "reason": null
+        },
+        {
+          "rule_id": "INCOME_PROOF_LARGE",
+          "passed": false,
+          "reason": null
+        }
+      ],
+      "expected_verdict": "reject",
+      "expected_rate": null,
+      "notes": null
+    }
+  ]
+}

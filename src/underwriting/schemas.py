@@ -97,3 +97,34 @@ class Application(BaseModel):
     employment_type: EmploymentType
     credit_history: CreditHistory
     applied_at: date
+
+# ============================================
+# GOLD STANDARD
+# ============================================
+class ExpectedRuleResult(BaseModel):
+    """Ожидаемый результат проверки одного правила для одной заявки."""
+    rule_id: str
+    passed: bool
+    reason: str | None = None
+
+class GoldApplication(BaseModel):
+    """Эталон для одной заявки."""
+    application_id: str
+    expected_rules: list[ExpectedRuleResult]
+    expected_verdict: str  # "approve" | "reject" | "review"
+    expected_rate: float | None = None
+    notes: str | None = None
+
+# ============================================
+# EVALUATION
+# ============================================
+
+class EvaluationReport(BaseModel):
+    """Результат оценки одной партии заявок."""
+    total: int
+    correct: int
+    precision: float
+    recall: float
+    f1: float
+    accuracy: float
+    per_field: dict[str, dict[str, float]] = {}
