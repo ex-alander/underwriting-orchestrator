@@ -51,6 +51,7 @@ dependencies = [
     "tenacity>=8.5",
     "pyyaml>=6.0",
     "faker>=40.41.0",
+    "langgraph>=1.2.13",
 ]
 
 [dependency-groups]

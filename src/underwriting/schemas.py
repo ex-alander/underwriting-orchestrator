@@ -88,7 +88,6 @@ class Application(BaseModel):
     application_id: str
     full_name: str
     age: int = Field(ge=18, le=80)
-    region: Region
     monthly_income: float = Field(gt=0)
     monthly_debt: float = Field(ge=0)
     loan_amount: float = Field(gt=0)
@@ -97,6 +96,7 @@ class Application(BaseModel):
     employment_type: EmploymentType
     credit_history: CreditHistory
     applied_at: date
+    region: Region
 
 # ============================================
 # GOLD STANDARD
